@@ -1,0 +1,8 @@
+<div class="container">
+  <p>home works!</p>
+  <p>RandomNumber: {{ randomNumber | async | json }}</p>
+  <div class="button">
+    <button mat-raised-button color="primary" (click)="onRandom()">Random</button>
+    <button mat-raised-button color="warn" (click)="onLogout()">Logout</button>
+  </div>
+</div>

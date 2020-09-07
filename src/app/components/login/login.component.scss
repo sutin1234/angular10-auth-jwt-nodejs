@@ -1,0 +1,9 @@
+.form {
+  margin: 0 auto !important;
+  padding: 10px;
+  .form-card {
+    mat-form-field {
+      margin: 5px;
+    }
+  }
+}
